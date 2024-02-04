@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 600px;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 90px;
+    background-color: #ff9bedce;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(7, 6, 6, 0.1);
+}
+
+#taskInput {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #62ec9c;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #dcadad;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.fa-trash,
+.fa-check {
+    margin-left: auto;
+    cursor: pointer;
+    color: #888;
+    transition: color 0.3s ease;
+}
+
+.fa-trash:hover,
+.fa-check:hover {
+    color: #000000;
+}
